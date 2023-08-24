@@ -109,7 +109,7 @@ if ((!isNull (findDisplay 312)) && (!isNil 'this')) then {
 			M9_mSQF_vehArr = [];
 			M9_mSQF_crewedVics = [];
 			M9_mSQF_crewedVicCount = 0;
-			M9_MissionName = 'Test Scenario';
+			M9_MissionName = _missionName;
 			endl call M9_fnc_addMissionSQF;
 			format ["Comment '======= Mission: %1 =======';", M9_MissionName] call M9_fnc_addMissionSQF;
 			endl call M9_fnc_addMissionSQF;
